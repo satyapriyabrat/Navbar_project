@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pic{
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+    border: 5px solid black;
+    text-align: center;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: start; */
+    /* align-items: end; */
+    align-items: center;
+     justify-content:space-around;
+    
+}
+.pic .cc{
+    height: 200PX;
+    WIDTH: 200PX;
+    BORDER: 5PX SOLID RED;
+}
+.pic .cd{
+    height: 200PX;
+    WIDTH: 200PX;
+    BORDER: 5PX SOLID GREEN;
+}

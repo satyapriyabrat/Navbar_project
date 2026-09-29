@@ -1,0 +1,103 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 90%;
+    height: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box .div1{
+    padding: 10px;
+    margin: 5px;
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    border: 5px dashed black;
+}
+.box .div2{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    border: 5px dashed black;
+}
+.box .div3{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    border: 5px dashed black;
+}
+.box .div1 .div01{
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 5px dotted black;
+}
+.box .div1 .div02{
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 5px dotted black;
+}
+.box .div1 .div03{
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 5px dotted black;
+}
+.box .div2 .div04{
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 5px dotted black;
+}
+.box .div2 .div05{
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 5px dotted black;
+}
+.box .div2 .div06{
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 5px dotted black;
+}
+.box .div3 .div07{
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 5px dotted black;
+}
+.box .div3 .div08{
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 5px dotted black;
+}
+.box .div3 .div09{
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 5px dotted black;
+}

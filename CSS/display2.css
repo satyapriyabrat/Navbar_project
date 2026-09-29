@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    justify-content: space-around; 
+
+}
+.box .div1{
+    text-align: center;
+height: 100PX;
+WIDTH: 100PX;
+BORDER: 5PX SOLID RED;
+}
+.box .div2{
+    text-align: center;
+    height: 100PX;
+    WIDTH: 100PX;
+    BORDER: 5PX SOLID GREEN;
+}
+.box .div3{
+    text-align: center;
+    height: 100PX;
+    WIDTH: 100PX;
+    BORDER: 5PX SOLID BLUE;
+}

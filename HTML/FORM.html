@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!--Form Tab--!-->
+    <form action="/submit" method="post" align="center" style="border: 2px solid black; padding: 20px; width: 400px; margin: auto;">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email"  name="email" placeholder="Enter your email">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password">
+        <br><br>
+        <label for="phone">Number:</label> 
+        <input type="tel" name="phone" placeholder="Enter your number" maxlength="10">
+        <br><br>
+        
+           
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other
+        <br><br>
+         
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+        <label for="color">Color:</label>   
+        <input type="color" name="color">
+        <br><br>
+        
+        <label for="range">Range:</label>
+        <input type="range" name="range">
+        <br><br>
+        
+        
+        <label for="language">Language:</label>
+        <input type="checkbox" name="language">Odia
+        <input type="checkbox" name="language">Hindi
+        <input type="checkbox" name="language">English
+        <br><br>
+        <label for="file">File:</label>
+        <input type="file" name="file">
+        <br><br>
+        <label for="">Qualification</label>
+        <select name="qualification">
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="graduation">Graduation</option>
+            <option value="postgraduation">Post Graduation</option>
+        </select>
+        <br><br>
+        <label for="address">Address:</label>
+        <textarea name="address"></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        
+
+    </form>
+</body>
+</html>

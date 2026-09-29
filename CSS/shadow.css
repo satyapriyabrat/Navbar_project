@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+     height: 300px;
+     width: 300px;
+     /* border-radius: 5px solod black; */
+     margin: 100px auto;
+     border-radius: 50%;
+     box-shadow: 10px 10px 5px 5px rgb(99, 36, 36);    
+}
+.box:hover {
+    box-shadow: -10px -10px 5px 5px rgb(18, 194, 59);
+    cursor: pointer;
+}
+.d{
+    font-size: 5rem;
+    text-shadow: 5px 5px 5px greenyellow;
+}
+.d:hover{
+    text-shadow: -5px -5px 5px rgb(61, 23, 50);
+}
+.btn{
+    background-color: rgb(187, 49, 49);
+    height: 40px;
+    width: 80px;
+    margin: 20px;
+    border-radius: 10px;
+
+    
+}
+.btn:hover{
+    transition:background-colour  0.5 ease;
+    cursor: pointer;
+    background-color: aqua;
+
+}

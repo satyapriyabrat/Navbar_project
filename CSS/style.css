@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(7, 175, 213);
+    
+}
+#xyz{
+    border: 5px solid rgb(70, 9, 89);
+    padding: 1em;
+    margin: 2em;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    color:green;
+    background-color: rgba(207, 166, 18, 0.358);
+}
+    
+.box .cc{
+    border: 5px solid rgb(169, 83, 8);
+    height: 200px;
+    width: 400px;
+    color: rgb(156, 190, 19);
+    text-align: center;
+    background-color: rgba(11, 7, 213, 0.358);
+    padding: 1em;
+    margin: 2em;
+}
+.cd{
+    border: 5px solid rgb(169, 83, 8);
+    height: 200px;
+    width: 400px;
+    color: rgb(156, 190, 19);
+    padding: 1em;
+    margin: 2em;
+    background-color:red;
+    overflow: auto;
+    text-align: center;
+}

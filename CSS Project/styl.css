@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .icon {
+
+    font-size: 1.8rem;
+}
+
+.navbar .heading {
+    color: rgb(187, 48, 6);
+    font-size: 1.5rem;
+}
+
+.navbar .Menus {
+    display: flex;
+    gap: 35px;
+}
+
+.Menus li {
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.navbar .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-section .icon2 {
+    font-size: 2rem;
+    color: rgb(146, 18, 18);
+}
+
+.profile-section .profile-div {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile-div .profile-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* here is start my hero section */
+
+.hero-section {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-section .hero-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hero-left .left-heading {
+    font-size: 1.9rem;
+    color: #ed1844;
+}
+
+.left-heading .cb {
+    color: black;
+}
+
+.hero-left .left-para {
+    font-size: 1.2rem;
+}
+
+.hero-left .btn-div {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.btn-div .order-btn {
+    padding: 0.8rem 3rem;
+    font-size: 1.2rem;
+    background-color: #ed1844;
+    color: white;
+    border-radius: 70px;
+    border: none;
+
+}
+
+.btn-div .order-btn:hover {
+    background-color: #cf3553;
+    cursor: pointer;
+}
+
+.btn-div .dine-btn {
+    padding: 0.8rem 3rem;
+    font-size: 1.2rem;
+    background-color: #ededed;
+    color: black;
+    border-radius: 70px;
+    border: none;
+    transition: all .4sec ease;
+}
+
+.btn-div .dine-btn:hover {
+    box-shadow: 1px 3px 10px 1px gray;
+    cursor: pointer;
+}
+
+.hero-left .image-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+
+.hero-section .hero-right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-right .bg-image {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-right .front-image {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50px;
+    top: 90px;
+}
+
+
+@media (max-width:576px) {
+
+    .navbar .heading {
+        display: none;
+    }
+
+    .navbar .Menus {
+        display: none;
+    }
+
+    .hero-left .image-div {
+        width: 40%;
+        height: 100px;
+
+    }
+
+    .hero-section .hero-right {
+        display: none;
+    }
+
+
+
+}

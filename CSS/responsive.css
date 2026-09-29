@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:aquamarine;
+    box-shadow: -5px -5px 10px rgb(226, 222, 125);
+    margin: 20px auto;
+}
+@media (max-width:576px){
+    .box{
+        background-color: green;
+    } 
+}
+@media(max-width:1200px) and (min-width:992px) {
+    .box{
+        background-color: black;
+    }
+}
